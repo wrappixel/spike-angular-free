@@ -1,0 +1,22 @@
+html .topbar {
+  background-color: $toolbar;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  height: $header-height;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
+.topbar-dd {
+  min-width: 200px !important;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+
+.mat-mdc-menu-panel.mat-mdc-menu-panel {
+  box-shadow: $box-shadow !important;
+}
