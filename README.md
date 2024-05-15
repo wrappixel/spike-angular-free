@@ -135,7 +135,7 @@ Spike Admin Angular Dashboard
 # Upgrade to Premium version
 
 <a target="_blank" href="https://www.wrappixel.com/templates/spike-angular-admin-template/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/10/spike-angular-material-admin-dashboard-ws.jpg" alt="">
+  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/12/spike.jpg" alt="">
 </a>
 <p>
   Checkout our premium version of Spike Admin Angular Dashboard Template for lots more features and ready to use page templates.<br>
