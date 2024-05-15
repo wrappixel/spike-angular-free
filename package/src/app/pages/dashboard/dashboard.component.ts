@@ -264,7 +264,8 @@ export class AppDashboardComponent {
         bar: {
           horizontal: false,
           columnWidth: '30%',
-          endingShape: 'flat',
+          borderRadius: 4,
+          endingShape: "rounded",
         },
       },
       chart: {
