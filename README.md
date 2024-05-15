@@ -22,7 +22,7 @@ Spike Admin Angular Dashboard
     <a href="https://spike-angular-free.netlify.app/dashboard">Live Preview</a>
   </td>
   <td>
-  <a href="https://demos.wrappixel.com/free-admin-templates/angular/spike-angular-free/landingpage/index.html">Live Preview</a>
+  <a href="https://spike-angular-pro-main.netlify.app/dashboards/dashboard1">Live Preview</a>
   </td>
 </tr>
 <tr>
@@ -118,7 +118,7 @@ Spike Admin Angular Dashboard
   -
   </td>
   <td>
-  10+ Ready to Use App
+  12+ Ready to Use App
   </td>
 </tr>
 <tr>
@@ -139,7 +139,7 @@ Spike Admin Angular Dashboard
 </a>
 <p>
   Checkout our premium version of Spike Admin Angular Dashboard Template for lots more features and ready to use page templates.<br>
-  <a href="https://demos.wrappixel.com/free-admin-templates/angular/spike-angular-free/landingpage/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/spike-angular-admin-template/">Download</a>
+  <a href="https://spike-angular-pro-main.netlify.app/dashboards/dashboard1">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/spike-angular-admin-template/">Download</a>
 </p>
 
 <!-- Versions of Template -->
@@ -188,10 +188,10 @@ Spike Admin Angular Dashboard
 <!-- Useful Links of Template -->
 # Useful Links
 - <p><a href="https://www.wrappixel.com/">Admin Theme</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/materialpro/">Bootstrap Themes</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/materialpro-lite/">Free Bootstrap Admin Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/materialpro-react-redux-admin/">React Bootstrap Template</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/">Vuejs Templates</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/spike-bootstrap-admin-dashboard/">Bootstrap Themes</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/spike-free-bootstrap-admin/">Free Bootstrap Admin Templates</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/spike-nextjs-admin-template/">NextJs Bootstrap Template</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/">Vuejs Templates</a> from Wrappixel</p>
 
 
 <!-- Licensing of Template -->
