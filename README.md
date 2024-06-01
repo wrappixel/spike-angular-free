@@ -30,7 +30,7 @@ Spike Admin Angular Dashboard
       <a href="https://www.wrappixel.com/templates/spike-free-angular-admin-template/">Download Now</a>
   </td>
   <td>
-    <a href="https://www.wrappixel.com/templates/spike-angular-admin-template/">Purchase Now</a>
+    <a href="https://www.wrappixel.com/templates/spike-angular-admin-template/?ref=33">Purchase Now</a>
   </td>
 </tr>
 <tr>
@@ -134,12 +134,12 @@ Spike Admin Angular Dashboard
 
 # Upgrade to Premium version
 
-<a target="_blank" href="https://www.wrappixel.com/templates/spike-angular-admin-template/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/12/spike.jpg" alt="">
+<a target="_blank" href="https://www.wrappixel.com/templates/spike-angular-admin-template/?ref=33">
+  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/spike-angular-admin-wpn.jpg" alt="">
 </a>
 <p>
   Checkout our premium version of Spike Admin Angular Dashboard Template for lots more features and ready to use page templates.<br>
-  <a href="https://spike-angular-pro-main.netlify.app/dashboards/dashboard1">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/spike-angular-admin-template/">Download</a>
+  <a href="https://spike-angular-pro-main.netlify.app/dashboards/dashboard1">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/spike-angular-admin-template/?ref=33">Download</a>
 </p>
 
 <!-- Versions of Template -->
@@ -147,7 +147,7 @@ Spike Admin Angular Dashboard
 <table>
 <thead>
 <tr>
-<th>Bootstrap</th>
+<th>Angular</th>
 <th>Next Js</th>
 <th>Nuxt</th>
 <th>Vue Js</th>
@@ -156,23 +156,23 @@ Spike Admin Angular Dashboard
 <tbody>
 <tr>
 <td>
-  <a href="https://www.wrappixel.com/templates/spike-bootstrap-admin-dashboard/" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-bootstrap-admin-dashboard-prev-img.jpg" alt="" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/spike-angular-admin-template/?ref=33" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/spike-angular-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
   <a href="https://www.wrappixel.com/templates/spike-nextjs-admin-template/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-nextjs-admin-dashboard-prev-img.jpg" alt="" style="max-width:150px;">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/spike-nextjs-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
   <a href="https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-nuxtjs-admin-dashboard-prev-img.jpg" alt="" style="max-width:150px;">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/spike-nuxtjs-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
   <a href="https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-vuejs-admin-dashboard-prev-img.jpg" alt="" style="max-width:150px;">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/spike-vuejs-vuetify-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 </td>
