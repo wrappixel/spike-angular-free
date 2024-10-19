@@ -21,8 +21,11 @@ $spacers: (
   24: $spacer * 1.5,
   30: 30px,
   32: $spacer * 2,
+  35: 35px,
+  40: 40px,
   48: $spacer * 3,
 ) !default;
+$negative-spacers: negativify-map($spacers) !default;
 
 // Border
 
@@ -70,6 +73,7 @@ $font-sizes: (
   16: 16px,
   18: 18px,
   20: 20px,
+  21: 21px,
   24: 24px,
   30: 30px,
 ) !default;

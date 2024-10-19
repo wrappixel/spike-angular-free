@@ -10,8 +10,10 @@
   color: white;
 }
 
-.mdc-button {
-  border-radius: $border-radius;
+.mdc-button,
+.mat-mdc-unelevated-button,
+.mat-button-toggle .mat-button-toggle-ripple {
+  border-radius: $border-radius !important;
 }
 
 .mat-mdc-raised-button {

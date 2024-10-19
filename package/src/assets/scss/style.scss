@@ -1,8 +1,8 @@
 @use "@angular/material" as mat;
 @include mat.core();
 
+@import "themecolors/default_theme";
 @import "variables";
-@import "layouts/transitions";
 @import "helpers/color";
 @import "helpers/icon-size";
 
@@ -19,8 +19,6 @@
 @import "helpers/custom-flex";
 @import "helpers/index";
 
-
 // pages
-@import "pages/dashboards";
 @import "pages/auth";
-
+@import "pages/dashboards";

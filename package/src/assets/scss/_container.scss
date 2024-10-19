@@ -9,7 +9,6 @@ body {
   color: $textPrimary;
   font-size: 14px;
   line-height: 1.334rem;
-  margin: 0;
 }
 
 html .mat-drawer-container {
@@ -86,4 +85,25 @@ html .mat-drawer-container {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.avatar-group {
+  img {
+    border: 2px solid white;
+    margin-right: -5px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.text-hover-primary:hover {
+  .hover-text {
+    color: $primary;
+  }
+}
+
+.filter-sidebar {
+  width: 290px !important;
 }
