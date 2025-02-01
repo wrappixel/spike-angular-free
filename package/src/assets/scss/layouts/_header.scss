@@ -1,29 +1,17 @@
+@use "../variables" as *;
+
 html .topbar {
-  background-color: $toolbar;
+  background-color: var(--mat-sys-surface);
   position: sticky;
   top: 0;
   z-index: 9;
   height: $header-height;
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  box-shadow: var(--mat-sys-level2);
 }
 
 .topbar-dd {
-  min-width: 360px !important;
-}
-
-.apps-dd {
-  min-width: 830px !important;
-  overflow: unset !important;
-
-  .mat-mdc-menu-content {
-    padding: 0;
-  }
-}
-
-.search-dd {
-  min-width: 385px !important;
-  border-radius: $border-radius !important;
+  min-width: 220px !important;
 }
 
 .upgrade-bg {
@@ -37,75 +25,7 @@ html .topbar {
   object-fit: cover;
 }
 
-@media (min-width: 768px) {
-  .search-dialog {
-    width: 600px;
-  }
-}
-
-// perfect scroll
-.ps__rail-y {
-  right: 0;
-  left: unset !important;
-}
-
-.pulse {
-  position: relative;
-  top: -15px;
-  right: -8px;
-  .heartbit {
-    position: absolute;
-    top: -17px;
-    right: -2px;
-    height: 18px;
-    width: 18px;
-    z-index: 10;
-    border: 3px solid $success;
-    border-radius: 70px;
-    -moz-animation: heartbit 1s ease-out;
-    -moz-animation-iteration-count: infinite;
-    -o-animation: heartbit 1s ease-out;
-    -o-animation-iteration-count: infinite;
-    -webkit-animation: heartbit 1s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-  }
-  .point {
-    width: 4px;
-    height: 4px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-    background-color: $success;
-    position: absolute;
-    right: 5px;
-    top: -10px;
-  }
-}
-
-@keyframes heartbit {
-  0% {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  25% {
-    -webkit-transform: scale(0.1);
-    opacity: 0.1;
-  }
-  50% {
-    -webkit-transform: scale(0.5);
-    opacity: 0.3;
-  }
-  75% {
-    -webkit-transform: scale(0.8);
-    opacity: 0.5;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    opacity: 0;
-  }
-}
-
-.disabled-hover {
-  padding-left: 15px !important;
+.profile-dd {
+  margin-top: -5px;
+  margin-left: -5px;
 }

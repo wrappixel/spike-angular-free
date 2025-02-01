@@ -1,2 +1,2 @@
-# Modernize-Angular-pro
-Modernize Angular Admin Dashboard
+# Spike-Angular-pro
+Spike Angular Admin Dashboard

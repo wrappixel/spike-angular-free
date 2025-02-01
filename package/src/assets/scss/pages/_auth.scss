@@ -1,9 +1,10 @@
+@use "../variables" as *;
+
 .blank-layout-container {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   background-size: cover;
   align-items: center;
-  overflow: hidden;
 }
 
 .auth-title {
@@ -18,12 +19,9 @@
     height: 100%;
     width: 100%;
     opacity: 0.3;
-    background: radial-gradient(
-        rgb(210, 241, 223),
+    background: radial-gradient(rgb(210, 241, 223),
         rgb(211, 215, 250),
-        rgb(186, 216, 244)
-      )
-      0% 0% / 400% 400%;
+        rgb(186, 216, 244)) 0% 0% / 400% 400%;
     animation: 15s ease 0s infinite normal none running gradient;
     z-index: -1;
   }
@@ -33,9 +31,11 @@
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 50% 0%;
   }
@@ -49,6 +49,7 @@
   &.row {
     margin-right: -8px;
     margin-left: -8px;
+
     .col-2,
     .col-12 {
       padding-right: 8px;
@@ -60,23 +61,25 @@
 .or-border {
   position: relative;
   text-align: center;
+
   &:before {
     content: "";
     position: absolute;
     left: 0;
-    width: 100px;
+    width: 120px;
     top: 50%;
     height: 1px;
-    background: $borderColor;
+    background: var(--mat-sys-outline);
   }
+
   &:after {
     content: "";
     position: absolute;
     right: 0;
-    width: 100px;
+    width: 120px;
     top: 50%;
     height: 1px;
-    background: $borderColor;
+    background: var(--mat-sys-outline);
   }
 }
 
@@ -91,6 +94,7 @@
 }
 
 .mat-mdc-form-field.mat-form-field-invalid {
+
   .mdc-notched-outline__leading,
   .mdc-notched-outline__notch,
   .mdc-notched-outline__trailing {
@@ -102,65 +106,4 @@
   position: absolute;
   top: -19px;
   right: 3px;
-}
-
-.auth-wrapper {
-  max-width: 1600px;
-  margin: 10px auto;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.shaper-wrapper {
-  &:before {
-    content: "";
-    position: absolute;
-    left: -125px;
-    bottom: -50px;
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    background-color: $error;
-  }
-  &:after {
-    content: "";
-    position: absolute;
-    top: -65px;
-    right: -60px;
-    width: 304px;
-    height: 315px;
-    background: url("../../images/backgrounds/shap-login.png");
-  }
-}
-
-.auth-card {
-  margin: 50px auto;
-  max-width: 1130px;
-  width: 100%;
-  position: relative;
-  border-radius: 18px;
-  z-index: 1;
-  box-shadow: rgba(37, 83, 185, 0.1) 0px 2px 30px 15px;
-  background-color: $white;
-}
-
-.auth-body {
-  padding: 16px 64px 32px;
-}
-
-@media (max-width: 1099px) {
-  .auth-body {
-    padding: 16px 16px 32px;
-  }
-  .shaper-wrapper {
-    padding: 0 15px;
-    width: 100%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .auth-card {
-    min-width: 1130px;
-  }
 }

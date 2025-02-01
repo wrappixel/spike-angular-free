@@ -4,24 +4,6 @@
 $font-family: "Plus Jakarta Sans", sans-serif;
 
 // light color variable
-$sidebarbg: white;
-$background: #f0f5f9;
-$cardbg: white;
-$toolbar: white;
-$cardshadow: rgb(145 158 171 / 30%) 0px 0px 2px 0px,
-  rgb(145 158 171 / 12%) 0px 12px 24px -4px;
-$hoverBgColor: #f6f9fc;
-
-// Dark color variable
-$darksidebarbg: #111c2d;
-$darkbackground: #15263a;
-$darkcardbg: #111c2d;
-$darktoolbar: #111c2d;
-$darkcardshadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px,
-  rgba(145, 158, 171, 0.02) 0px 12px 24px -4px;
-$darkborderColor: #333f55;
-$darkformborderColor: #465670;
-$darkhoverbgcolor: #333f55;
 
 // Sidenav
 $sidenav-desktop: 270px !default;
@@ -29,38 +11,34 @@ $sidenav-mini: 80px !default;
 $header-height: 70px !default;
 
 //BorderColor
-$borderColor: #e5eaef;
-$borderformColor: #dfe5ef;
+$borderColor: var(--mat-sys-outline-variant);
+$borderformColor: var(--mat-sys-outline-variant);
 
 // custom
-$primary: #0085db;
-$accent: #707a82;
+$primary: var(--mat-sys-primary);
+$secondary: var(--mat-sys-secondary);
+$accent: var(--mat-sys-secondary);
+$error: var(--mat-sys-error);
 $warning: #f8c076;
-$error: #fb977d;
 $success: #4bd08b;
-$info: #46caeb;
 $white: #ffffff;
 
-$light: #f2f6fa;
-
-$gray-100: #7c8fac;
-
-$light-primary: #e5f3fb;
-$light-accent: #e7ecf0;
-$light-warning: #fff6ea;
-$light-error: #ffede9;
-$light-success: #dffff3;
-$light-info: #e1f5fa;
+$light: var(--mat-sys-surface-bright);
+$light-primary: var(--mat-sys-primary-fixed-dim);
+$light-secondary: var(--mat-sys-secondary-fixed-dim);
+$light-accent: var(--mat-sys-secondary-fixed-dim);
+$light-error: var(--mat-sys-error-fixed-dim);
+$light-warning: rgba(248, 192, 118, 0.15);
+$light-success: rgba(75, 208, 139, 0.15);
+$dark: #111c2d;
 
 // layout
 $boxedWidth: 1200px;
+$border-radius: 18px;
 $layout-padding: 20px;
 
-$border-radius: 18px;
+$card-spacer: 30px;
 
-// text color
-$textPrimary: #111c2d;
+$text-color: var(--mat-sys-on-background);
 
-$body-color: #707a82;
-
-$box-shadow: 0 2px 6px rgba(37, 83, 185, 0.1);
+$dark-text-secondary: rgba(255, 255, 255, 0.67);

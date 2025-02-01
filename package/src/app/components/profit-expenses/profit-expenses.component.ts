@@ -44,7 +44,6 @@ export interface profitExpanceChart {
 
 @Component({
   selector: 'app-profit-expenses',
-  standalone: true,
   imports: [MaterialModule, TablerIconsModule, MatButtonModule, NgApexchartsModule],
   templateUrl: './profit-expenses.component.html',
 })
@@ -55,9 +54,9 @@ export class AppProfitExpensesComponent {
   public profitExpanceChart!: Partial<profitExpanceChart> | any;
 
   months: month[] = [
-    { value: 'mar', viewValue: 'Sep 2024' },
-    { value: 'apr', viewValue: 'Oct 2024' },
-    { value: 'june', viewValue: 'Nov 2024' },
+    { value: 'mar', viewValue: 'Sep 2025' },
+    { value: 'apr', viewValue: 'Oct 2025' },
+    { value: 'june', viewValue: 'Nov 2025' },
   ];
 
 

@@ -17,7 +17,6 @@ interface productcards {
 
 @Component({
   selector: 'app-blog',
-  standalone: true,
   imports: [MatCardModule, MatChipsModule, TablerIconsModule, MatButtonModule, MatIconModule],
   templateUrl: './apps-blog.component.html',
 })
@@ -28,28 +27,28 @@ export class AppBlogComponent {
     {
       id: 1,
       imgSrc: '/assets/images/products/p1.jpg',
-      title: 'Boat Headphone',
+      title: 'Super Games',
       price: '285',
       rprice: '375',
     },
     {
       id: 2,
       imgSrc: '/assets/images/products/p2.jpg',
-      title: 'MacBook Air Pro',
+      title: 'Derma-E',
       price: '285',
       rprice: '375',
     },
     {
       id: 3,
       imgSrc: '/assets/images/products/p3.jpg',
-      title: 'Red Valvet Dress',
+      title: 'SockSoho',
       price: '285',
       rprice: '375',
     },
     {
       id: 4,
       imgSrc: '/assets/images/products/p4.jpg',
-      title: 'Cute Soft Teddybear',
+      title: 'Glossy Solution',
       price: '285',
       rprice: '375',
     },
