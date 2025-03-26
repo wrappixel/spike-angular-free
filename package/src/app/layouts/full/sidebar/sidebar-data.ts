@@ -17,7 +17,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'secondary',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -27,7 +27,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'warning',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
 
@@ -41,7 +41,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'success',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -51,7 +51,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'error',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -61,7 +61,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'primary',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -71,7 +71,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'warning',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -81,7 +81,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'success',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -91,7 +91,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'error',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -101,7 +101,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'primary',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -111,7 +111,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'secondary',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -121,7 +121,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'warning',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -131,7 +131,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'success',
     chip: true,
     external: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -141,7 +141,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'error',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -149,7 +149,7 @@ export const navItems: NavItem[] = [
     iconName: 'file-invoice',
     bgcolor: 'primary',
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
     route: '',
     children: [
@@ -159,7 +159,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
         route: 'https://spike-angular-pro-main.netlify.app/apps/invoice',
       },
@@ -169,7 +169,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
         route:
           'https://spike-angular-pro-main.netlify.app/apps/viewInvoice/101',
@@ -180,7 +180,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
         route: 'https://spike-angular-pro-main.netlify.app/apps/addInvoice',
       },
@@ -190,7 +190,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
         route:
           'https://spike-angular-pro-main.netlify.app/apps/editinvoice/101',
@@ -203,7 +203,7 @@ export const navItems: NavItem[] = [
     iconName: 'chart-donut-3',
     bgcolor: 'secondary',
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
     route: 'apps/blog',
     children: [
@@ -213,7 +213,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
         route: 'https://spike-angular-pro-main.netlify.app/apps/blog/post',
       },
@@ -223,7 +223,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
         route:
           'https://spike-angular-pro-main.netlify.app/apps/blog/detail/Early Black Friday Amazon deals: cheap TVs, headphones, laptops',
@@ -283,7 +283,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'error',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -293,7 +293,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'primary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -303,7 +303,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'secondary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -313,7 +313,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'warning',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -323,7 +323,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'success',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -333,7 +333,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'error',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -343,7 +343,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'primary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -353,7 +353,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'secondary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -363,7 +363,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'warning',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -373,7 +373,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'success',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -383,7 +383,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'error',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -393,7 +393,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'primary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -403,7 +403,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'secondary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
 
@@ -417,7 +417,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'warning',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -427,7 +427,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'success',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -437,7 +437,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'error',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -447,7 +447,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'primary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -457,7 +457,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'secondary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -467,7 +467,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'warning',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -476,7 +476,7 @@ export const navItems: NavItem[] = [
     route: 'widgets',
     bgcolor: 'success',
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
     children: [
       {
@@ -486,7 +486,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -496,7 +496,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -506,7 +506,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
     ],
@@ -534,7 +534,7 @@ export const navItems: NavItem[] = [
     iconName: 'apps',
     bgcolor: 'secondary',
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
     route: 'forms/forms-elements',
     children: [
@@ -546,7 +546,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -557,7 +557,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -568,7 +568,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -579,7 +579,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -590,7 +590,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
     ],
@@ -602,7 +602,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'warning',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -612,7 +612,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'success',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -622,7 +622,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'error',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -632,7 +632,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'primary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -642,7 +642,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'secondary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   
@@ -655,7 +655,7 @@ export const navItems: NavItem[] = [
     route: 'tables',
     bgcolor: 'warning',
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
     children: [
       {
@@ -665,7 +665,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -675,7 +675,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -685,7 +685,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -696,7 +696,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -707,7 +707,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -717,7 +717,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -727,7 +727,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -738,7 +738,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -749,7 +749,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -760,7 +760,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -771,7 +771,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -782,7 +782,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -793,7 +793,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
       {
@@ -804,7 +804,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
           external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
       },
     ],
@@ -816,7 +816,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'success',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -829,7 +829,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'error',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -839,7 +839,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'primary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -849,7 +849,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'secondary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -859,7 +859,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'warning',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -869,7 +869,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'success',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -879,7 +879,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'error',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -889,7 +889,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'primary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
 
@@ -914,7 +914,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white', 
+        chipClass: 'bg-light-primary text-primary', 
         chipContent: 'PRO',
         route: 'https://spike-angular-pro-main.netlify.app/authentication/login',
       },
@@ -938,7 +938,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
         route: 'https://spike-angular-pro-main.netlify.app/authentication/side-register',
       },
@@ -949,7 +949,7 @@ export const navItems: NavItem[] = [
     iconName: 'rotate',
     bgcolor: 'success',
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
     route: '/authentication',
     children: [
@@ -959,7 +959,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
         route: 'https://spike-angular-pro-main.netlify.app/authentication/side-forgot-pwd',
       },
@@ -969,7 +969,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
         route: 'https://spike-angular-pro-main.netlify.app/authentication/boxed-forgot-pwd',
       },
@@ -980,7 +980,7 @@ export const navItems: NavItem[] = [
     iconName: 'zoom-code',
     bgcolor: 'error',
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
     route: '/authentication',
     children: [
@@ -990,7 +990,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
         route: 'https://spike-angular-pro-main.netlify.app/authentication/side-two-steps',
       },
@@ -1000,7 +1000,7 @@ export const navItems: NavItem[] = [
         bgcolor: 'tranparent',
         external: true,
         chip: true,
-        chipClass: 'bg-primary text-white',
+        chipClass: 'bg-light-primary text-primary',
         chipContent: 'PRO',
         route: 'https://spike-angular-pro-main.netlify.app/authentication/boxed-two-steps',
       },
@@ -1013,7 +1013,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'primary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
   {
@@ -1023,7 +1023,7 @@ export const navItems: NavItem[] = [
     bgcolor: 'secondary',
     external: true,
     chip: true,
-    chipClass: 'bg-primary text-white',
+    chipClass: 'bg-light-primary text-primary',
     chipContent: 'PRO',
   },
 ];
