@@ -149,8 +149,6 @@ export const navItems: NavItem[] = [
     iconName: 'file-invoice',
     bgcolor: 'primary',
     chip: true,
-    chipClass: 'bg-light-primary text-primary',
-    chipContent: 'PRO',
     route: '',
     children: [
       {
@@ -202,9 +200,7 @@ export const navItems: NavItem[] = [
     displayName: 'Blog',
     iconName: 'chart-donut-3',
     bgcolor: 'secondary',
-    chip: true,
-    chipClass: 'bg-light-primary text-primary',
-    chipContent: 'PRO',
+    
     route: 'apps/blog',
     children: [
       {
@@ -475,9 +471,7 @@ export const navItems: NavItem[] = [
     iconName: 'layout',
     route: 'widgets',
     bgcolor: 'success',
-    chip: true,
-    chipClass: 'bg-light-primary text-primary',
-    chipContent: 'PRO',
+    
     children: [
       {
         displayName: 'Cards',
@@ -533,9 +527,7 @@ export const navItems: NavItem[] = [
     displayName: 'Elements',
     iconName: 'apps',
     bgcolor: 'secondary',
-    chip: true,
-    chipClass: 'bg-light-primary text-primary',
-    chipContent: 'PRO',
+    
     route: 'forms/forms-elements',
     children: [
       {
@@ -654,9 +646,7 @@ export const navItems: NavItem[] = [
     iconName: 'layout',
     route: 'tables',
     bgcolor: 'warning',
-    chip: true,
-    chipClass: 'bg-light-primary text-primary',
-    chipContent: 'PRO',
+    
     children: [
       {
         displayName: 'Basic Table',
@@ -948,9 +938,7 @@ export const navItems: NavItem[] = [
     displayName: 'Forgot Pwd',
     iconName: 'rotate',
     bgcolor: 'success',
-    chip: true,
-    chipClass: 'bg-light-primary text-primary',
-    chipContent: 'PRO',
+    
     route: '/authentication',
     children: [
       {
@@ -979,9 +967,7 @@ export const navItems: NavItem[] = [
     displayName: 'Two Steps',
     iconName: 'zoom-code',
     bgcolor: 'error',
-    chip: true,
-    chipClass: 'bg-light-primary text-primary',
-    chipContent: 'PRO',
+    
     route: '/authentication',
     children: [
       {
