@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://www.wrappixel.com/" target="_blank">
-      <img src="https://adminmart.github.io/template_api/images/brand-logo/WrapPixel-Logo.svg" alt="sneat-logo" width="100px" height="100px">
+      <img src="https://adminmart.github.io/template_api/images/brand-logo/WrapPixel-Logo.svg" alt="spike-image" width="100px" height="100px">
    </a>
 </p>
 <h1 align="center">
@@ -155,7 +155,7 @@ The **Free Version** of the **Spike Angular Admin Template** provides a solid se
       <tr>
          <td>
             <a href="https://www.wrappixel.com/all-access-pass/?ref=376" width="150px">
-             <img src="https://www.wrappixel.com/wp-content/uploads/2025/04/all-access-pass-category-banner-1.png" alt="spile-bootstrap-admin-template" style="max-width:140px;">
+             <img src="https://www.wrappixel.com/wp-content/uploads/2025/04/all-access-pass-category-banner-1.png" alt="all-access-pass-category-admin-template" style="max-width:140px;">
             </a>
          </td>
          <td>
@@ -173,7 +173,7 @@ The **Free Version** of the **Spike Angular Admin Template** provides a solid se
    <thead>
       <tr>
          <th>
-            <img src="https://skillicons.dev/icons?i=react" height="20" alt="angular templates" style="margin-right: 8px;">
+            <img src="https://skillicons.dev/icons?i=react" height="20" alt="react templates" style="margin-right: 8px;">
             <span>React</span>
          </th>
          <th>
