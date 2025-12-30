@@ -21,8 +21,8 @@ body {
   margin-top: 72px;
 }
 
-@media (max-width: 991px){
-  .mainWrapper{
+@media (max-width: 991px) {
+  .mainWrapper {
     margin-top: 154px;
   }
 }
@@ -126,4 +126,13 @@ td.hljs-ln-line.hljs-ln-numbers {
   html .flex-sm-row {
     flex-direction: row !important;
   }
+}
+
+.mat-drawer[style*="visibility: hidden"] {
+  display: none;
+}
+
+.ng-scroll-viewport[_nghost-ng-c2407083653]>.ng-scroll-content[_ngcontent-ng-c2407083653],
+.ng-scrollbar-external-viewport[_nghost-ng-c2407083653] .ng-scroll-viewport>.ng-scroll-content {
+  width: 100% !important;
 }
